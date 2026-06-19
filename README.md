@@ -5,7 +5,9 @@ Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique.
 * [Station d'impression](#station-dimpression)
     * [Imprimante H2D Pro](#imprimante-h2d-pro)
     * [AMS 2 Pro](#ams-2-pro)
+        * [Remplacer un filament dans l'AMS 2 Pro](#remplacer-un-filament-dans-lams-2-pro)
     * [AMS HT](#ams-ht)
+        * [Remplacer un filament dans l'AMS HT](#remplacer-un-filament-dans-lams-ht)
     * [Chute et panier de déchets](#chute-et-panier-de-déchet)
     * [Bouton d'arrêt d'urgence](#bouton-darrêt-durgence)
     * [Poste GMC-ROBOT-BAMBU](#poste-gmc-robot-bambu)
@@ -25,7 +27,9 @@ La station d'impression se trouve à l'entrée du local **_PLT-3702_** et contie
 5) Bouton d'arrêt d'urgence
 6) Poste **_GMC-ROBOT-BAMBU_**
 
-//TODO : Ajouter une image avec les différents éléments
+<p align="middle">
+    <img src="img/station_impression.jpg" alt="plateau_vide" style="width:600px;"/>
+</p>
 
 ## Imprimante H2D Pro
 L'imprimante H2D Pro se distingue des imprimantes du Fablab sur deux caractéristiques.
@@ -56,7 +60,17 @@ En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité
 > [!NOTE]
 > L'AMS 2 Pro permet à la buse droite d'imprimer un maximum de 4 filaments différents de manière automatique. Plus que cela et le filament devra être changé manuellement durant l'impression. Il est aussi important de noter que chaque changement de filament demande une purge de la buse et donc des déchets supplémentaires.
 
-//TODO : Ajout d'un guide de remplacement des bobines
+### Remplacer un filament dans l'AMS 2 Pro
+1) Pour ouvrir l'AMS, il est **_important de le débarrer en rabattant les bras de blocage vers l'interieur_**. Par la suite, le couvercle peut être ouvert.
+2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour le libérer de la serre de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
+3) Pour installer une nouvelle bobine, commencez par placer la bobine dans l'espace voulu. Par la suite, poussez sur la plaque d'appui à la bouche d'entrée de filament pour ouvrir la serre de l'AMS. En gardant la plaque d'appui enfoncée, insérer l'embout du filament dans la bouche d'entrée de filament. Une fois le filament suffisament enfoncé, l'AMS va automatiquement commencer à avaler le filament.
+4) Pour refermer l'AMS, fermez le couvercle et barrez ce dernier en redressant les bras de blocage.
+
+La vidéo ci-dessous montre la démarche complète pour changer une bobine.
+<p align="middle">
+    <img src="img/AMS_2_Pro_change.gif" alt="AMS_2_Pro_change" style="width:800px;"/>
+</p>
+
 
 ## AMS HT
 Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet de la gestion de l'humidité et de la température du filament sur la bobine. Cepedant cet appareil ne permet de contenir qu'une seule bobine. En échange, il permet un séchage plus performant du filament qu'il contient. Cette fonctionnalité est surtout intéressante pour les matériaux plus difficiles à imprimer tels que le TPU et l'ABS.
@@ -64,7 +78,20 @@ Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet de la gestion de l'hu
 > [!IMPORTANT]
 > L'AMS HT est connecté à la buse de gauche de l'imprimante.
 
-//TODO : Ajout d'un guide de remplacement de la bobine
+### Remplacer un filament dans l'AMS HT
+1) Pour ouvrir l'AMS, simplement tirer vers le haut la petite poignée pour décrocher l'avant du couvercle. Le couvercle peut ensuite être ouvert.
+2) Pour retirer la bobine, pousser sur le bouton se situant a l'intérieur de l'enclos pour libérer la serre de l'AMS. Se référer à la photo ci-dessous pour situer le bouton. À noter que le bouton demande beaucoup de pression pour libérer sont emprise sur le filament. Par la suite, tout en gardant la bouton enfoncé, retirer le filament de la bouche d'entrée de filament. Finalement, retirer la bobine de l'AMS.
+3) Pour installer une nouvelle bobine, placez la bobine dans l'AMS. Ensuite, simplement insérer la l'embout du filament dans la bouche d'entrée de filament. Le bouton **_n'a pas besoin_** d'être enfoncé. Une fois le filament suffisament enfoncé, l'AMS va automatiquement commencer à avaler le filament.
+4) Pour refermer l'AMS, simplement refermer le couvercle jusqu'à ce que le crochet avant s'enclenche.
+
+<p align="middle">
+    <img src="img/bouton_AMS_HT_mod.jpg" alt="bouton_AMS_HT" style="width:600px;"/>
+</p>
+
+La vidéo ci-dessous montre la démarche complète pour changer la bobine.
+<p align="middle">
+    <img src="img/AMS_HT_change.gif" alt="AMS_HT_change" style="width:800px;"/>
+</p>
 
 ## Chute et panier de déchet
 La chute à déchets sert à récupérer les petits amats de plastiques produits par l'imprimante lors de calibration de la buse ou lors de la purge d'un type de plastique de la buse. Le panier doit être vidé occasionnellement pour éviter qu'il ne déborde.
@@ -97,7 +124,7 @@ La procédure pour partir une impression est la même lorsque physiquement au po
 La première étape est de se connecter au poste GMC-ROBOT-BAMBU. Pour avoir accès à vos fichiers d'impression sur ce poste, vous pouvez les placer sur une clé USB (si sur poste physique) ou aller les chercher directement sur votre espace réseau ROBOT. Il est aussi possible de copier des fichier d'un poste à l'autre en connexion à distance.
 
 > [!IMPORTANT]
-> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la console CMD termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichier de configuration notamment nécessaire pour se connecter à l'imprimante.
+> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la console CMD termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichier de configuration notamment nécessaire pour se connecter à l'imprimante. <p align="middle"> <img src="img/CMD.png" alt="CMD" style="width:400px;"/> </p>
 
 Une fois la console CMD fermée, ouvrir **_Bambu Studio_**. La première étape est de se connecter à l'imprimante pour pouvoir synchroniser Bambu Studio avec notre configuration d'AMS. Dirigez vous vers l'onglet **_Device_** et cliquez sur en haut à gauche sur **_No printer_**. Une liste devrait apparaitre et sous **_My Device_**, cliquez sur l'imprimante **_H2D-PRO-ROBOT(LAN)_**. Après une seconde ou deux, la connexion devrait s'établir. Lorsque la connexion est effectuée, retournez dans l'onglet **_Prepare_** et cliquez sur la bouton **_Sync info_**. Une fois la synchronisation des buses et AMS effectuée. le logiciel va demander de continuer vers la synchronisation des filaments. Si les filaments du projet ne sont pas les mêmes que sur les AMS, le logiciel va vous demander d'associée les filaments réels dans les AMS à ceux du projet.
 
@@ -106,13 +133,17 @@ Une fois la console CMD fermée, ouvrir **_Bambu Studio_**. La première étape 
 </p>
 
 ## Changer les filaments
-Si les filaments nécessaire à votre impression ne sont pas déjà dans les AMS, alors il faudra les changer. La démarche pour le changement du filament pour chaque AMS se trouve aux sections respectives [AMS 2 Pro](#ams-2-pro) et [AMS HT](#ams-ht).
+Si les filaments nécessaire à votre impression ne sont pas déjà dans les AMS, alors il faudra les changer. La démarche pour le changement du filament pour chaque AMS se trouve aux sections respectives [AMS 2 Pro](#remplacer-un-filament-dans-lams-2-pro) et [AMS HT](#remplacer-un-filament-dans-lams-ht).
 
 Vous pouvez placer les filaments dans les emplacements qui vous semblent bons. Cependant, lorsque vous allez cliquer sur **_Slice part_** et que vous sélectionner **_Filament-saving mode_**. le logiciel va vous indiquer comment positionner les filaments dans les AMS pour diminuer les pertes (et accélérer l'impression !). Si on prend l'exemple de la carte de tolérancement ci-dessous, il m'est indiqué de positionner le filament orange dans l'AMS HT (buse de gauche) et le bleu et cyan dans l'AMS 2 Pro (buse de droite). Ce choix est fait, car une fois la base de la pièce terminée (en bleu), la buse de droite peut passer au cyan pour terminer le texte sur le dessus de la pièce qui est en orange et cyan.
 
 <p align="middle">
     <img src="img/filament_placement.png" alt="filament_placement" style="width:600px;"/>
 </p>
+
+> [!WARNING]
+> Les bobines Bambu que nous utilisons contiennent une puce RFID pouvant être lue par l'AMS. Cette puce contient l'information quant à l'identitée du filament et permet donc à l'AMS et l'imprimante de détecter automatiquement la sorte de filament ainsi que sa couleur. Cependant, cette puce n'est parfois pas capable d'être lue par l'AMS. Dans un tel cas, simplement utiliser l'écran de l'imprimante et dirigez-vous vers le menu des filaments (icône de bobine). Dans ce menu, cliquez sur le filament non reconnu et cliquez sur **_Edit_** pour entrer manuellement les informations du filament.<p align="middle"> <img src="img/edit_filament.jpg" alt="edit_filament" style="width:600px;"/> </p>
+
 
 > [!IMPORTANT]
 > Une fois les filaments repositionnés ou changés dans les AMS, il est important de re-synchoniser les informations de l'imprimante avec le logiciel.
@@ -146,7 +177,7 @@ Avant de continuer à la section **_Process_**. placez vos pièces sur le platea
 Dans process, on peut remarquer qu'il y a un slider pouvant alterner entre **_Global_** et **_Objects_**. Dans Global, il est posible de modifier les paramètres globaux de l'impression. C'est généralement dans cette sections que la majorités des utilisateurs vont modifier leurs paramètres. Juste sous la banière, on peut voir un menu déroulant. Celui-ci contient des profils de paramètres pré-enregistrées. À noter que les profils peuvent être ajustés au besoin. Pour ce faire, visiter les sous-menus pour modifier les paramètres voulus. Dans l'image présentée ci-dessous, on a **_Quality_**, **_Strength_**, **_Support_** et **_Others_**.
 
 <p align="middle">
-    <img src="img/process_global.png" alt="process_global" style="width:600px;"/>
+    <img src="img/process_global.png" alt="process_global" style="width:400px;"/>
 </p>
 
 > [!NOTE]
@@ -155,7 +186,7 @@ Dans process, on peut remarquer qu'il y a un slider pouvant alterner entre **_Gl
 Si on passe aux paramètres des objets, on peut voir notre plateau ainsi que nos modèles. Comme on peut le voir sur l'image ci-dessous, le logiciel a choisi le filament 1 pour imprimer mes 3 pièces, ce qui n'est pas idéal considérant que celui-ci est mon matériel de support. Pour changer le filament d'impression des pièces, soit cliquer droit sur la pièce et allez dans **_Change Filament_**, ou soit cliquez directement sur le numréro du filament à côté du modèle. À noter que cette dernière option prend quelques clics.
 
 <p align="middle">
-    <img src="img/process_objects.png" alt="process_objects" style="width:600px;"/>
+    <img src="img/process_objects.png" alt="process_objects" style="width:400px;"/>
 </p>
 
 Lorsqu'une pièce est sélectionnée, on peut voir que les sous-menus de paramètres d'impression sont affichés plus bas. Ceci permet de modifier les paramètres d'impression pour les différents modèles. Par exemple, je pourrais augmenter le pourcentage de remplaçage à 30% pour une pièce tout en gardant les autres à 15%.
@@ -163,7 +194,7 @@ Lorsqu'une pièce est sélectionnée, on peut voir que les sous-menus de paramè
 Il est aussi possible de sélectionner le plateau dans la liste pour accéder à des paramètres d'impression comme le type de plateau et la séquence d'impression.
 
 <p align="middle">
-    <img src="img/process_objects_plate.png" alt="process_objects_plate" style="width:600px;"/>
+    <img src="img/process_objects_plate.png" alt="process_objects_plate" style="width:400px;"/>
 </p>
 
 ## Paramètres d'impression importants
