@@ -241,7 +241,7 @@ Pour retirer les pièces du plateau, ce dernier peut être légèrement plié. D
 ### Réinstaller la plateau d'impression dans l'imprimante
 Pour faciliter l'utilisation de l'imprimante pour tous, veuillez réinstaller le plateau d'impression dans l'imprimante une fois les pièces récupérées. Veuillez vous assurer qu'aucun plastique ne soit encore collé sur le plateau.
 
-Le plateau ainsi que la surface de réception de l'imprimante comportent des brides permenttant de centrer le plateau dans l'imprimante. Pour replacer le plateau, gardez celui-ci en angle avec son embout arrière touchant à la surface de l'imprimante. Ensuite, glissez le plateau vers l'arrière jusqu'à ce que les brides du plateau se soient imbriquées avec le système de localisation de la surface de l'imprimante.
+Le plateau ainsi que la surface de réception de l'imprimante comportent des brides permettant de centrer le plateau dans l'imprimante. Pour replacer le plateau, gardez celui-ci en angle avec son embout arrière touchant à la surface de l'imprimante. Ensuite, glissez le plateau vers l'arrière jusqu'à ce que les brides du plateau se soient imbriquées avec le système de localisation de la surface de l'imprimante. Finalement, abaisser le plateau jusqu'à ce qu'il se colle à l'aide des aimants sur la surface de l'imprimante.
 <p align="middle">
     <img src="img/localisation.jpg" alt="localisation" style="width:600px;"/>
 </p>
@@ -251,7 +251,7 @@ Le plateau ainsi que la surface de réception de l'imprimante comportent des bri
 </p>
 
 # Gabarit de tolérances
-Comme pour toute imprimante 3D, la précision de la machine n'est pas parfaite. Notamment, les trous sont généralement plus petits qu'originalement modélisés. Il faut donc souvent ajouter un offset pour obtenir la dimension voulue. De manière à simplflier le design pour impression sur la H2D Pro, un gabarit de tolérance d'alésages a été imprimé pour permettre de tester le résultat de plusieurs offsets à plusieurs tailles utilisées courament, soient 1/16in, 1/8in, 3/16in, 6mm, 1/4in, 8mm, 3/8in et 10mm. Les incréments sur l'offset sont par bonds de 0.1mm. 
+Comme pour toute imprimante 3D, la précision de la machine n'est pas parfaite. Notamment, les trous sont généralement plus petits qu'originalement modélisés. Il faut donc souvent ajouter un offset pour obtenir la dimension voulue. De manière à simplflier le design pour impression sur la H2D Pro, un gabarit de tolérances d'alésages a été imprimé pour permettre de tester le résultat de plusieurs offsets à plusieurs tailles utilisées couramment, soient 1/16in, 1/8in, 3/16in, 6mm, 1/4in, 8mm, 3/8in et 10mm. Les incréments sur l'offset sont par bonds de 0.1mm. 
 
 <p align="middle">
     <img src="img/gabarit_tol.jpg" alt="gabarit_tol" style="width:400px;"/>
