@@ -1,5 +1,5 @@
 # Guide-Bambu-Robot
-Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique.
+Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique. La lecture du guide est **_OBLIGATOIRE_** avant l'utilisation de l'imprimante.
 
 # Table des matières
 * [Station d'impression](#station-dimpression)
@@ -15,7 +15,10 @@ Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique.
     * [Ouverture et configuration de l'environnemment](#ouverture-et-configuration-de-lenvironnemment)
     * [Changer les filaments](#changer-les-filaments)
     * [Préparer le plateau d'impression](#préparer-le-plateau-dimpression)
-    * [Paramètres d'impression importants](#paramètres-dimpression-importants)
+    * [Utiliser le matériau de support](#utiliser-le-matériau-de-support)
+    * [Récupérer l'impression une fois terminée](#récupérer-limpression-une-fois-terminée)
+        * [Réinstaller la plateau d'impression dans l'imprimante](#réinstaller-la-plateau-dimpression-dans-limprimante)
+* [Gabarit de tolérances](#gabarit-de-tolérances)
 
 # Station d'impression
 La station d'impression se trouve à l'entrée du local **_PLT-3702_** et contient les éléments suivants.
@@ -100,7 +103,7 @@ La chute à déchets sert à récupérer les petits amats de plastiques produits
 Le bouton d'arrêt d'urgence se trouve à droite de l'imprimante et permet l'arrêt de la machine.
 
 > [!CAUTION]
-> Le bouton d'urgence coupe directement l'alimentation de la machine. Il est donc fortement déconseillé d'arrêter une impression de cette manière, car ce dernier sera perdu.
+> Le bouton d'urgence coupe directement l'alimentation de la machine. Il est donc fortement déconseillé d'arrêter une impression de cette manière, car cette dernière sera perdue.
 
 ## Poste GMC-ROBOT-BAMBU
 Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement accessible au travers du poste informatique associé. Tout étudiant du laboratoire de robotique peut se connecter au poste. Il est possible de la faire physiquement ou en connexion à distance comme tout autre poste du laboratoire. La connexion a distance sur le poste permet de lancer des impressions à distance.
@@ -111,7 +114,7 @@ Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement access
 > [!CAUTION]
 > Avant de partir une impression s'assurer qu'un plateau d'impression est bien installé et qu'aucune pièce n'est présente sur le plateau.
 
-Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra.
+Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra. Si le plateau d'impression n'est pas présent, se référer à la [section d'installation du plateau](#réinstaller-la-plateau-dimpression-dans-limprimante).
 
 <p align="middle">
     <img src="img/cam_plateau.gif" alt="cam_plateau" style="width:1280px;"/>
@@ -124,7 +127,7 @@ La procédure pour partir une impression est la même lorsque physiquement au po
 La première étape est de se connecter au poste GMC-ROBOT-BAMBU. Pour avoir accès à vos fichiers d'impression sur ce poste, vous pouvez les placer sur une clé USB (si sur poste physique) ou aller les chercher directement sur votre espace réseau ROBOT. Il est aussi possible de copier des fichier d'un poste à l'autre en connexion à distance.
 
 > [!IMPORTANT]
-> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la console CMD termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichier de configuration notamment nécessaire pour se connecter à l'imprimante. <p align="middle"> <img src="img/CMD.png" alt="CMD" style="width:400px;"/> </p>
+> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la console CMD termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichier de configuration notamment nécessaire pour se connecter à l'imprimante. <p align="middle"> <img src="img/CMD.png" alt="CMD" style="width:600px;"/> </p>
 
 Une fois la console CMD fermée, ouvrir **_Bambu Studio_**. La première étape est de se connecter à l'imprimante pour pouvoir synchroniser Bambu Studio avec notre configuration d'AMS. Dirigez vous vers l'onglet **_Device_** et cliquez sur en haut à gauche sur **_No printer_**. Une liste devrait apparaitre et sous **_My Device_**, cliquez sur l'imprimante **_H2D-PRO-ROBOT(LAN)_**. Après une seconde ou deux, la connexion devrait s'établir. Lorsque la connexion est effectuée, retournez dans l'onglet **_Prepare_** et cliquez sur la bouton **_Sync info_**. Une fois la synchronisation des buses et AMS effectuée. le logiciel va demander de continuer vers la synchronisation des filaments. Si les filaments du projet ne sont pas les mêmes que sur les AMS, le logiciel va vous demander d'associée les filaments réels dans les AMS à ceux du projet.
 
@@ -138,12 +141,11 @@ Si les filaments nécessaire à votre impression ne sont pas déjà dans les AMS
 Vous pouvez placer les filaments dans les emplacements qui vous semblent bons. Cependant, lorsque vous allez cliquer sur **_Slice part_** et que vous sélectionner **_Filament-saving mode_**. le logiciel va vous indiquer comment positionner les filaments dans les AMS pour diminuer les pertes (et accélérer l'impression !). Si on prend l'exemple de la carte de tolérancement ci-dessous, il m'est indiqué de positionner le filament orange dans l'AMS HT (buse de gauche) et le bleu et cyan dans l'AMS 2 Pro (buse de droite). Ce choix est fait, car une fois la base de la pièce terminée (en bleu), la buse de droite peut passer au cyan pour terminer le texte sur le dessus de la pièce qui est en orange et cyan.
 
 <p align="middle">
-    <img src="img/filament_placement.png" alt="filament_placement" style="width:600px;"/>
+    <img src="img/filament_placement.png" alt="filament_placement" style="width:800px;"/>
 </p>
 
 > [!WARNING]
-> Les bobines Bambu que nous utilisons contiennent une puce RFID pouvant être lue par l'AMS. Cette puce contient l'information quant à l'identitée du filament et permet donc à l'AMS et l'imprimante de détecter automatiquement la sorte de filament ainsi que sa couleur. Cependant, cette puce n'est parfois pas capable d'être lue par l'AMS. Dans un tel cas, simplement utiliser l'écran de l'imprimante et dirigez-vous vers le menu des filaments (icône de bobine). Dans ce menu, cliquez sur le filament non reconnu et cliquez sur **_Edit_** pour entrer manuellement les informations du filament.<p align="middle"> <img src="img/edit_filament.jpg" alt="edit_filament" style="width:600px;"/> </p>
-
+> Les bobines Bambu que nous utilisons contiennent une puce RFID pouvant être lue par l'AMS. Cette puce contient l'information quant à l'identitée du filament et permet donc à l'AMS et l'imprimante de détecter automatiquement la sorte de filament ainsi que sa couleur. Cependant, cette puce n'est parfois pas capable d'être lue par l'AMS. Dans un tel cas, simplement utiliser l'écran de l'imprimante et dirigez-vous vers le menu des filaments (icône de bobine). Dans ce menu, cliquez sur le filament non reconnu et cliquez sur **_Edit_** pour entrer manuellement les informations du filament. Cette démarche est aussi a faire si le filament n'est pas de la marque Bambu.<p align="middle"> <img src="img/edit_filament.jpg" alt="edit_filament" style="width:600px;"/> </p>
 
 > [!IMPORTANT]
 > Une fois les filaments repositionnés ou changés dans les AMS, il est important de re-synchoniser les informations de l'imprimante avec le logiciel.
@@ -189,7 +191,7 @@ Si on passe aux paramètres des objets, on peut voir notre plateau ainsi que nos
     <img src="img/process_objects.png" alt="process_objects" style="width:400px;"/>
 </p>
 
-Lorsqu'une pièce est sélectionnée, on peut voir que les sous-menus de paramètres d'impression sont affichés plus bas. Ceci permet de modifier les paramètres d'impression pour les différents modèles. Par exemple, je pourrais augmenter le pourcentage de remplaçage à 30% pour une pièce tout en gardant les autres à 15%.
+Lorsqu'une pièce est sélectionnée, on peut voir que les sous-menus de paramètres d'impression sont affichés plus bas. Ceci permet de modifier les paramètres d'impression pour les différents modèles. Par exemple, je pourrais augmenter le pourcentage de remplissage à 30% pour une pièce tout en gardant les autres à 15%.
 
 Il est aussi possible de sélectionner le plateau dans la liste pour accéder à des paramètres d'impression comme le type de plateau et la séquence d'impression.
 
@@ -197,4 +199,54 @@ Il est aussi possible de sélectionner le plateau dans la liste pour accéder à
     <img src="img/process_objects_plate.png" alt="process_objects_plate" style="width:400px;"/>
 </p>
 
-## Paramètres d'impression importants
+## Utiliser le matériau de support
+Contraîrement à d'autres imprimantes, le matériel de support ne sert pas a construire l'entièreté de la structure de support. En effet, il est plus efficace de construire la majorité de la structure de support dans le même matériel que la pièce supportée. Le matériel de support est utilisé uniquement pour faire l'interface entre le support et la pièce supportée. Cette couche d'interface permet d'aisément séparer le support de la pièce tout en améliorant la finit de surface de la pièce à l'interface.
+
+<p align="middle">
+    <img src="img/sup_interface.gif" alt="sup_interface" style="width:1280px;"/>
+</p>
+
+Pour utliser le matériau de support, dirigez vous dans la sous-section **_Support_** et activez le support. Ensuite, sous **_Filament for Supports_**, dans le paramètre **_Support/raft interface_**, sélectionnez le filament de support servant à créer l'interface.
+
+> [!NOTE]
+> Dès que les deux buses sont utilisées lors d'une impression, le logiciel va vous demander d'activer la tour de préparation (prime tower). Cette pièce sacrificielle sert à calibrer l'éjection du plastique lorsque l'imprimante passe d'une buse à l'autre. Cette tour est visible en haut à gauche du plateau d'impression dans la vidéo ci-dessus.<p align="middle"> <img src="img/prime_tower.png" alt="prime_tower" style="width:400px;"/> </p>
+
+## Lancer l'impression du plateau
+Une fois la préparation du plateau terminée, la tâche d'impression peut être envoyée à l'imprimante en cliquant sur **_Print plate_**. Une page comme celle affichée ci-dessous devrait s'ouvrir. Celle-ci présente un sommaire de la configuration de l'imprimante ainsi que des choix pour la calibration pré-impression. Il est suggéré de garder les calibrations en mode automatique. Finalement, cliquez sur **_Send_**.
+<p align="middle">
+    <img src="img/print_job.png" alt="print_job" style="width:600px;"/>
+</p>
+
+## Récupérer l'impression une fois terminée
+> [!CAUTION]
+> Une fois l'impression terminée, celle-ci peut être récupérée immédiatement. Cependant, le plateau sera encore très chaud. Si le plateau est au dessus de 35°C, vous êtes dans **_l'obligation de mettre des gants pour retirer le plateau d'impression_** de l'imprimante. La température du plateau est affichée dans le menu des paramêtres de l'imprimante sur l'écran de l'imprimante. <p align="middle"> <img src="img/heatbed.jpg" alt="heatbed" style="width:600px;"/> </p>
+
+Pour retirer le plateau d'impression, simplement pincer les brides à l'extrémités du plateau, du côté de la porte, et tirer l'embout du plateau vers le haut. Celui-ci devrait se décoller des aimants sur la surface de l'imprimante. Par la suite, glisser le plateau hors de l'imprimante.
+
+<p align="middle">
+    <img src="img/remove_plate.gif" alt="remove_plate" style="width:800px;"/>
+</p>
+
+Pour retirer les pièces du plateau, ce dernier peut être légèrement plié. De plus, un gratoir en plastique est aussi disponible.
+<p align="middle">
+    <img src="img/bend_plate.png" alt="bend_plate" style="width:600px;"/>
+</p>
+
+### Réinstaller la plateau d'impression dans l'imprimante
+Pour faciliter l'utilisation de l'imprimante pour tous, veuillez réinstaller le plateau d'impression dans l'imprimante une fois les pièces récupérées. Veuillez vous assurer qu'aucun plastique ne soit encore collé sur le plateau.
+
+Le plateau ainsi que la surface de réception de l'imprimante comportent des brides permenttant de centrer le plateau dans l'imprimante. Pour replacer le plateau, gardez celui-ci en angle avec son embout arrière touchant à la surface de l'imprimante. Ensuite, glissez le plateau vers l'arrière jusqu'à ce que les brides du plateau se soient imbriquées avec le système de localisation de la surface de l'imprimante.
+<p align="middle">
+    <img src="img/localisation.jpg" alt="localisation" style="width:600px;"/>
+</p>
+
+<p align="middle">
+    <img src="img/install_plate.gif" alt="install_plate" style="width:800px;"/>
+</p>
+
+# Gabarit de tolérances
+Comme pour toute imprimante 3D, la précision de la machine n'est pas parfaite. Notamment, les trous sont généralement plus petits qu'originalement modélisés. Il faut donc souvent ajouter un offset pour obtenir la dimension voulue. De manière à simplflier le design pour impression sur la H2D Pro, un gabarit de tolérance d'alésages a été imprimé pour permettre de tester le résultat de plusieurs offsets à plusieurs tailles utilisées courament, soient 1/16in, 1/8in, 3/16in, 6mm, 1/4in, 8mm, 3/8in et 10mm. Les incréments sur l'offset sont par bonds de 0.1mm. 
+
+<p align="middle">
+    <img src="img/gabarit_tol.jpg" alt="gabarit_tol" style="width:400px;"/>
+</p>
