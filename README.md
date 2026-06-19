@@ -56,16 +56,16 @@ L'utilisation des deux buses à toutefois un impact sur la surface d'impression.
 L'AMS (Automatic Material System) est un outils de gestion des filaments d'impression. Le boîtier peut contenir jusqu'à 4 bobines de filaments et permet d'automatiquement alimenter l'une des buses avec l'une des quatres bobines à la fois.
 
 > [!IMPORTANT]
-> L'AMS 2 Pro est connecté à la buse de droite de l'imprimante.
+> L'AMS 2 Pro est connecté à la **_buse de droite_** de l'imprimante.
 
-En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité et la température de l'enclos, l'AMS 2 Pro permet de la changement automatique du filament utilisé par la buse droite lors de l'impression.
+En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité et la température de l'enclos, l'AMS 2 Pro permet le changement automatique du filament utilisé par la buse droite lors de l'impression.
 
 > [!NOTE]
 > L'AMS 2 Pro permet à la buse droite d'imprimer un maximum de 4 filaments différents de manière automatique. Plus que cela et le filament devra être changé manuellement durant l'impression. Il est aussi important de noter que chaque changement de filament demande une purge de la buse et donc des déchets supplémentaires.
 
 ### Remplacer un filament dans l'AMS 2 Pro
 1) Pour ouvrir l'AMS, il est **_important de le débarrer en rabattant les bras de blocage vers l'interieur_**. Par la suite, le couvercle peut être ouvert.
-2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour le libérer de la serre de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
+2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour libérer le filament de la serre de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
 3) Pour installer une nouvelle bobine, commencez par placer la bobine dans l'espace voulu. Par la suite, poussez sur la plaque d'appui à la bouche d'entrée de filament pour ouvrir la serre de l'AMS. En gardant la plaque d'appui enfoncée, insérer l'embout du filament dans la bouche d'entrée de filament. Une fois le filament suffisament enfoncé, l'AMS va automatiquement commencer à avaler le filament.
 4) Pour refermer l'AMS, fermez le couvercle et barrez ce dernier en redressant les bras de blocage.
 
@@ -76,15 +76,15 @@ La vidéo ci-dessous montre la démarche complète pour changer une bobine.
 
 
 ## AMS HT
-Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet de la gestion de l'humidité et de la température du filament sur la bobine. Cepedant cet appareil ne permet de contenir qu'une seule bobine. En échange, il permet un séchage plus performant du filament qu'il contient. Cette fonctionnalité est surtout intéressante pour les matériaux plus difficiles à imprimer tels que le TPU et l'ABS.
+Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet la gestion de l'humidité et de la température du filament sur la bobine. Cepedant cet appareil ne permet de contenir qu'une seule bobine. En échange, il permet un séchage plus performant du filament qu'il contient. Cette fonctionnalité est surtout intéressante pour les matériaux plus difficiles à imprimer tels que le TPU et l'ABS.
 
 > [!IMPORTANT]
-> L'AMS HT est connecté à la buse de gauche de l'imprimante.
+> L'AMS HT est connecté à la **_buse de gauche_** de l'imprimante.
 
 ### Remplacer un filament dans l'AMS HT
 1) Pour ouvrir l'AMS, simplement tirer vers le haut la petite poignée pour décrocher l'avant du couvercle. Le couvercle peut ensuite être ouvert.
 2) Pour retirer la bobine, pousser sur le bouton se situant a l'intérieur de l'enclos pour libérer la serre de l'AMS. Se référer à la photo ci-dessous pour situer le bouton. À noter que le bouton demande beaucoup de pression pour libérer sont emprise sur le filament. Par la suite, tout en gardant la bouton enfoncé, retirer le filament de la bouche d'entrée de filament. Finalement, retirer la bobine de l'AMS.
-3) Pour installer une nouvelle bobine, placez la bobine dans l'AMS. Ensuite, simplement insérer la l'embout du filament dans la bouche d'entrée de filament. Le bouton **_n'a pas besoin_** d'être enfoncé. Une fois le filament suffisament enfoncé, l'AMS va automatiquement commencer à avaler le filament.
+3) Pour installer une nouvelle bobine, placez la bobine dans l'AMS. Ensuite, simplement insérer l'embout du filament dans la bouche d'entrée de filament. Le bouton **_n'a pas besoin_** d'être enfoncé. Une fois le filament suffisament inséré, l'AMS va automatiquement commencer à avaler le filament.
 4) Pour refermer l'AMS, simplement refermer le couvercle jusqu'à ce que le crochet avant s'enclenche.
 
 <p align="middle">
@@ -106,7 +106,7 @@ Le bouton d'arrêt d'urgence se trouve à droite de l'imprimante et permet l'arr
 > Le bouton d'urgence coupe directement l'alimentation de la machine. Il est donc fortement déconseillé d'arrêter une impression de cette manière, car cette dernière sera perdue.
 
 ## Poste GMC-ROBOT-BAMBU
-Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement accessible au travers du poste informatique associé. Tout étudiant du laboratoire de robotique peut se connecter au poste. Il est possible de la faire physiquement ou en connexion à distance comme tout autre poste du laboratoire. La connexion a distance sur le poste permet de lancer des impressions à distance.
+Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement accessible au travers du poste informatique associé. Tout étudiant du laboratoire de robotique peut se connecter au poste. Il est possible de le faire physiquement ou par connexion à distance comme tout autre poste du laboratoire. La connexion a distance sur le poste permet de lancer des impressions à distance.
 
 > [!IMPORTANT]
 > Le nom du poste est : **_GMC-ROBOT-BAMBU_**
@@ -124,19 +124,19 @@ Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour i
 La procédure pour partir une impression est la même lorsque physiquement au poste ou en connexion à distance. Cependant, certaines opérations requièrent des opération manuelles sur la machine.
 
 ## Ouverture et configuration de l'environnemment
-La première étape est de se connecter au poste GMC-ROBOT-BAMBU. Pour avoir accès à vos fichiers d'impression sur ce poste, vous pouvez les placer sur une clé USB (si sur poste physique) ou aller les chercher directement sur votre espace réseau ROBOT. Il est aussi possible de copier des fichier d'un poste à l'autre en connexion à distance.
+La première étape est de se connecter au poste **_GMC-ROBOT-BAMBU_**. Pour avoir accès à vos fichiers d'impression sur ce poste, vous pouvez les placer sur une clé USB (si sur poste physique) ou aller les chercher directement sur votre espace réseau ROBOT. Il est aussi possible de copier des fichier d'un poste à l'autre en connexion à distance.
 
 > [!IMPORTANT]
-> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la console CMD termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichier de configuration notamment nécessaire pour se connecter à l'imprimante. <p align="middle"> <img src="img/CMD.png" alt="CMD" style="width:600px;"/> </p>
+> Lors de l'ouverture d'une session sur GMC-ROBOT-BAMBU, il est important de **_NE PAS_** lancer Bambu Studio immédiatement. Plutôt, attendre que la **_console CMD_** termine de rouler son script et quelle se ferme par elle même. Le script sert à copier des fichiers de configuration, notamment nécessaires pour se connecter à l'imprimante. <p align="middle"> <img src="img/CMD.png" alt="CMD" style="width:600px;"/> </p>
 
-Une fois la console CMD fermée, ouvrir **_Bambu Studio_**. La première étape est de se connecter à l'imprimante pour pouvoir synchroniser Bambu Studio avec notre configuration d'AMS. Dirigez vous vers l'onglet **_Device_** et cliquez sur en haut à gauche sur **_No printer_**. Une liste devrait apparaitre et sous **_My Device_**, cliquez sur l'imprimante **_H2D-PRO-ROBOT(LAN)_**. Après une seconde ou deux, la connexion devrait s'établir. Lorsque la connexion est effectuée, retournez dans l'onglet **_Prepare_** et cliquez sur la bouton **_Sync info_**. Une fois la synchronisation des buses et AMS effectuée. le logiciel va demander de continuer vers la synchronisation des filaments. Si les filaments du projet ne sont pas les mêmes que sur les AMS, le logiciel va vous demander d'associée les filaments réels dans les AMS à ceux du projet.
+Une fois la console CMD fermée, ouvrir **_Bambu Studio_**. La première étape est de se connecter à l'imprimante pour pouvoir synchroniser Bambu Studio avec notre configuration d'AMS. Dirigez vous vers l'onglet **_Device_** et cliquez en haut à gauche sur **_No printer_**. Une liste devrait apparaitre et sous **_My Device_**, cliquez sur l'imprimante **_H2D-PRO-ROBOT(LAN)_**. Après une seconde ou deux, la connexion devrait s'établir. Lorsque la connexion est effectuée, retournez dans l'onglet **_Prepare_** et cliquez sur la bouton **_Sync info_**. Une fois la synchronisation des buses et AMS effectuée. le logiciel va demander de continuer vers la synchronisation des filaments. Si les filaments du projet ne sont pas les mêmes que sur les AMS, le logiciel va vous demander d'associer les filaments réels dans les AMS à ceux du projet.
 
 <p align="middle">
     <img src="img/connect_sync.gif" alt="cam_plateau" style="width:1280px;"/>
 </p>
 
 ## Changer les filaments
-Si les filaments nécessaire à votre impression ne sont pas déjà dans les AMS, alors il faudra les changer. La démarche pour le changement du filament pour chaque AMS se trouve aux sections respectives [AMS 2 Pro](#remplacer-un-filament-dans-lams-2-pro) et [AMS HT](#remplacer-un-filament-dans-lams-ht).
+Si les filaments nécessaires à votre impression ne sont pas déjà dans les AMS, alors il faudra les changer. La démarche pour le changement du filament pour chaque AMS se trouve aux sections respectives [AMS 2 Pro](#remplacer-un-filament-dans-lams-2-pro) et [AMS HT](#remplacer-un-filament-dans-lams-ht).
 
 Vous pouvez placer les filaments dans les emplacements qui vous semblent bons. Cependant, lorsque vous allez cliquer sur **_Slice part_** et que vous sélectionner **_Filament-saving mode_**. le logiciel va vous indiquer comment positionner les filaments dans les AMS pour diminuer les pertes (et accélérer l'impression !). Si on prend l'exemple de la carte de tolérancement ci-dessous, il m'est indiqué de positionner le filament orange dans l'AMS HT (buse de gauche) et le bleu et cyan dans l'AMS 2 Pro (buse de droite). Ce choix est fait, car une fois la base de la pièce terminée (en bleu), la buse de droite peut passer au cyan pour terminer le texte sur le dessus de la pièce qui est en orange et cyan.
 
@@ -145,7 +145,7 @@ Vous pouvez placer les filaments dans les emplacements qui vous semblent bons. C
 </p>
 
 > [!WARNING]
-> Les bobines Bambu que nous utilisons contiennent une puce RFID pouvant être lue par l'AMS. Cette puce contient l'information quant à l'identitée du filament et permet donc à l'AMS et l'imprimante de détecter automatiquement la sorte de filament ainsi que sa couleur. Cependant, cette puce n'est parfois pas capable d'être lue par l'AMS. Dans un tel cas, simplement utiliser l'écran de l'imprimante et dirigez-vous vers le menu des filaments (icône de bobine). Dans ce menu, cliquez sur le filament non reconnu et cliquez sur **_Edit_** pour entrer manuellement les informations du filament. Cette démarche est aussi a faire si le filament n'est pas de la marque Bambu.<p align="middle"> <img src="img/edit_filament.jpg" alt="edit_filament" style="width:600px;"/> </p>
+> Les bobines Bambu que nous utilisons contiennent une puce RFID pouvant être lue par l'AMS. Cette puce contient l'information quant à l'identité du filament et permet donc à l'AMS et l'imprimante de détecter automatiquement la sorte de filament ainsi que sa couleur. Cependant, cette puce n'est parfois pas capable d'être lue par l'AMS. Dans un tel cas, simplement utiliser l'écran de l'imprimante et dirigez-vous vers le menu des filaments (icône de bobine). Dans ce menu, cliquez sur le filament non reconnu et cliquez sur **_Edit_** pour entrer manuellement les informations du filament. Cette démarche est aussi a faire si le filament n'est pas de la marque Bambu.<p align="middle"> <img src="img/edit_filament.jpg" alt="edit_filament" style="width:600px;"/> </p>
 
 > [!IMPORTANT]
 > Une fois les filaments repositionnés ou changés dans les AMS, il est important de re-synchoniser les informations de l'imprimante avec le logiciel.
@@ -162,10 +162,10 @@ La section **_Printer_** devrait être complétée après s'être connecté à l
 La section **_Project Filaments_** sert à indiquer les filaments qui seront utilisés pour l'impression.
 
 > [!NOTE]
-> Après la synmchronisation des informations de l'imprimante, le logiciel va automatiquement créer un filament pour chaque filament réel détecté dans les AMS.
+> Après la synchronisation des informations de l'imprimante, le logiciel va automatiquement créer un filament pour chaque filament réel détecté dans les AMS.
 
 <p align="middle">
-    <img src="img/printer_filaments.png" alt="printer_filament" style="width:300px;"/>
+    <img src="img/printer_filaments.png" alt="printer_filament" style="width:400px;"/>
 </p>
 
 Dans l'exemple ci-dessus, on voit que j'ai le matériau de support de l'AMS HT ainsi que les trois couleurs de PLA de mon AMS 2 Pro, pour un total de 4 filaments.
@@ -176,7 +176,7 @@ Avant de continuer à la section **_Process_**. placez vos pièces sur le platea
     <img src="img/print_plate.png" alt="print_plate" style="width:600px;"/>
 </p>
 
-Dans process, on peut remarquer qu'il y a un slider pouvant alterner entre **_Global_** et **_Objects_**. Dans Global, il est posible de modifier les paramètres globaux de l'impression. C'est généralement dans cette sections que la majorités des utilisateurs vont modifier leurs paramètres. Juste sous la banière, on peut voir un menu déroulant. Celui-ci contient des profils de paramètres pré-enregistrées. À noter que les profils peuvent être ajustés au besoin. Pour ce faire, visiter les sous-menus pour modifier les paramètres voulus. Dans l'image présentée ci-dessous, on a **_Quality_**, **_Strength_**, **_Support_** et **_Others_**.
+Dans process, on peut remarquer qu'il y a un slider pouvant alterner entre **_Global_** et **_Objects_**. Dans Global, il est posible de modifier les paramètres globaux de l'impression. C'est généralement dans cette section que la majorité des utilisateurs vont modifier leurs paramètres. Juste sous la banière, on peut voir un menu déroulant. Celui-ci contient des profils de paramètres pré-enregistrées. À noter que les profils peuvent être ajustés au besoin. Pour ce faire, visiter les sous-menus pour modifier les paramètres voulus. Dans l'image présentée ci-dessous, on a **_Quality_**, **_Strength_**, **_Support_** et **_Others_**.
 
 <p align="middle">
     <img src="img/process_global.png" alt="process_global" style="width:400px;"/>
@@ -197,6 +197,12 @@ Il est aussi possible de sélectionner le plateau dans la liste pour accéder à
 
 <p align="middle">
     <img src="img/process_objects_plate.png" alt="process_objects_plate" style="width:400px;"/>
+</p>
+
+Une fois les pièces agancées et les paramètres d'impression choisis, cliquez sur **_Slice part_**. Le logiciel va ensuite convertir votre plateau en fichier d'impression. Il est ensuite possible d'inspecter le rendu réel de la tâche d'impression. Le curseur le long du côté droit permet d'inspecter chaque couche d'impression.
+
+<p align="middle">
+    <img src="img/slicing.gif" alt="slicing" style="width:1280px;"/>
 </p>
 
 ## Utiliser le matériau de support
