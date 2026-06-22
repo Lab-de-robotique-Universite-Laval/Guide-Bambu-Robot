@@ -12,7 +12,7 @@ Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique. La lecture 
     * [Bouton d'arrêt d'urgence](#bouton-darrêt-durgence)
     * [Poste GMC-ROBOT-BAMBU](#poste-gmc-robot-bambu)
 * [Procédure d'impression](#procédure-dimpression)
-    * [Ouverture et configuration de l'environnement](#ouverture-et-configuration-de-lenvironnemment)
+    * [Ouverture et configuration de l'environnement](#ouverture-et-configuration-de-lenvironnement)
     * [Changer les filaments](#changer-les-filaments)
     * [Préparer le plateau d'impression](#préparer-le-plateau-dimpression)
     * [Utiliser le matériau de support](#utiliser-le-matériau-de-support)
@@ -120,7 +120,7 @@ Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement access
 > [!CAUTION]
 > Avant de lancer une impression, s'assurer qu'un plateau d'impression est bien installé et qu'aucune pièce n'est présente sur le plateau.
 
-Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra. Si vous vous connectez à distance, veuillez lire cette [section](#ouverture-et-configuration-de-lenvironnemment) avant de continuer . Si le plateau d'impression n'est pas présent, se référer à la [section d'installation du plateau](#réinstaller-la-plateau-dimpression-dans-limprimante).
+Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra. Si vous vous connectez à distance, veuillez lire cette [section](#ouverture-et-configuration-de-lenvironnement) avant de continuer . Si le plateau d'impression n'est pas présent, se référer à la [section d'installation du plateau](#réinstaller-la-plateau-dimpression-dans-limprimante).
 
 <p align="middle">
     <img src="img/cam_plateau.gif" alt="cam_plateau" style="width:1280px;"/>
