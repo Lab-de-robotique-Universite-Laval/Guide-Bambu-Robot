@@ -17,7 +17,7 @@ Guide d'utilisation de la Bambu H2D Pro du laboratoire de robotique. La lecture 
     * [Préparer le plateau d'impression](#préparer-le-plateau-dimpression)
     * [Utiliser le matériau de support](#utiliser-le-matériau-de-support)
     * [Récupérer l'impression une fois terminée](#récupérer-limpression-une-fois-terminée)
-        * [Réinstaller le plateau d'impression dans l'imprimante](#réinstaller-la-plateau-dimpression-dans-limprimante)
+        * [Réinstaller le plateau d'impression dans l'imprimante](#réinstaller-le-plateau-dimpression-dans-limprimante)
 * [Gabarit de tolérances](#gabarit-de-tolérances)
 
 # Station d'impression
@@ -65,7 +65,7 @@ En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité
 
 ### Remplacer un filament dans l'AMS 2 Pro
 > [!IMPORTANT]
-> Lire les **_4 étapes suivantes au complet_** et regardez la vidéo pour s'assurer d'avoir compris la séquence à acoomplir avant d'intéragir avec l'AMS 2 Pro.
+> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS 2 Pro.
 
 1) Pour ouvrir l'AMS, il est **_important de le débarrer en rabattant les bras de blocage vers l'intérieur_**. Par la suite, le couvercle peut être ouvert.
 2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour libérer le filament de la serre de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
@@ -86,7 +86,7 @@ Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet la gestion de l'humid
 
 ### Remplacer un filament dans l'AMS HT
 > [!IMPORTANT]
-> Lire les **_4 étapes suivantes au complet_** et regardez la vidéo pour s'assurer d'avoir compris la séquence à acoomplir avant d'intéragir avec l'AMS HT.
+> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS HT.
 
 1) Pour ouvrir l'AMS, simplement tirer vers le haut la petite poignée pour décrocher l'avant du couvercle. Le couvercle peut ensuite être ouvert.
 2) Pour retirer la bobine, pousser sur le bouton se situant à l'intérieur de l'enclos pour libérer la serre de l'AMS. Se référer à la photo ci-dessous pour situer le bouton. À noter que le bouton demande beaucoup de pression pour libérer son emprise sur le filament. Par la suite, tout en gardant le bouton enfoncé, retirer le filament de la bouche d'entrée de filament. Finalement, retirer la bobine de l'AMS.
@@ -120,7 +120,7 @@ Tout comme les imprimantes du Fablab, l'imprimante H2D Pro est uniquement access
 > [!CAUTION]
 > Avant de lancer une impression, s'assurer qu'un plateau d'impression est bien installé et qu'aucune pièce n'est présente sur le plateau.
 
-Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra. Si vous vous connectez à distance, veuillez lire cette [section](#ouverture-et-configuration-de-lenvironnement) avant de continuer . Si le plateau d'impression n'est pas présent, se référer à la [section d'installation du plateau](#réinstaller-la-plateau-dimpression-dans-limprimante).
+Pour vérifier l'état du plateau, il faut soit se déplacer physiquement pour inspecter l'imprimante, ou soit utiliser la caméra interne de l'imprimante accessible dans l'onglet **_Device_** de **_Bambu Studio_**. Il faut se connecter à l'imprimante avant d'activer la caméra. Si vous vous connectez à distance, veuillez lire cette [section sur la connexion à l'imprimante](#ouverture-et-configuration-de-lenvironnement) avant de continuer. Si le plateau d'impression n'est pas présent, se référer à la [section d'installation du plateau](#réinstaller-le-plateau-dimpression-dans-limprimante).
 
 <p align="middle">
     <img src="img/cam_plateau.gif" alt="cam_plateau" style="width:1280px;"/>
@@ -182,6 +182,11 @@ Avant de continuer à la section **_Process_**, placez vos pièces sur le platea
     <img src="img/print_plate.png" alt="print_plate" style="width:600px;"/>
 </p>
 
+> [!NOTE]
+> Si vous importez un fichier STEP, le logiciel va vous demander de sélectionner la déflexion linéaire et angulaire voulue. En effet, le logiciel doit convertir le fichier en STL sous forme de triangles. Plus la déflexion est faible, plus le modèle résultant sera de haute résolution et plus il sera précis. Cependant, le temps pour la découpe sera plus élevé. <p align="middle">
+    <img src="img/step_import.png" alt="process_objects" style="width:400px;"/>
+</p>
+
 Dans process, on peut remarquer qu'il y a une glissière pouvant alterner entre **_Global_** et **_Objects_**. Dans Global, il est possible de modifier les paramètres globaux de l'impression. C'est généralement dans cette section que la majorité des utilisateurs vont modifier leurs paramètres. Juste sous la bannière, on peut voir un menu déroulant. Celui-ci contient des profils de paramètres préenregistrés. À noter que les profils peuvent être ajustés au besoin. Pour ce faire, visiter les sous-menus pour modifier les paramètres voulus. Dans l'image présentée ci-dessous, on a **_Quality_**, **_Strength_**, **_Support_** et **_Others_**.
 
 <p align="middle">
@@ -218,7 +223,9 @@ Contrairement à d'autres imprimantes, le matériel de support ne sert pas à co
     <img src="img/sup_interface.gif" alt="sup_interface" style="width:1280px;"/>
 </p>
 
-Pour utiliser le matériau de support, dirigez-vous dans la sous-section **_Support_** et activez le support. Ensuite, sous **_Filament for Supports_**, dans le paramètre **_Support/raft interface_**, sélectionnez le filament de support servant à créer l'interface.
+Pour utiliser le matériau de support, dirigez-vous dans la sous-section **_Support_** et activez le support. Ensuite, sous **_Filament for Supports_**, dans le paramètre **_Support/raft interface_**, sélectionnez le filament de support servant à créer l'interface. Ensuite, acceptez les suggestions de paramètres à activer.
+
+<p align="middle"> <img src="img/suggestion_prime_tower.png" alt="prime_tower" style="width:600px;"/> <p>
 
 > [!NOTE]
 > Dès que les deux buses sont utilisées lors d'une impression, le logiciel va vous demander d'activer la tour de préparation (prime tower). Cette pièce sacrificielle sert à calibrer l'éjection du plastique lorsque l'imprimante passe d'une buse à l'autre. Cette tour est visible en haut à gauche du plateau d'impression dans la vidéo ci-dessus.<p align="middle"> <img src="img/prime_tower.png" alt="prime_tower" style="width:400px;"/> </p>
@@ -262,3 +269,9 @@ Comme pour toute imprimante 3D, la précision de la machine n'est pas parfaite. 
 <p align="middle">
     <img src="img/gabarit_tol.jpg" alt="gabarit_tol" style="width:400px;"/>
 </p>
+
+# TODO
+- [ ] Ajout de la procédure pour l'impression avec TPU
+- [ ] Ajout de la procédure pour impression multi-matériaux / multi-couleur
+- [ ] Ajout de la version anglaise du guide
+- [ ] Impression d'un gabarit de tolérance pour les arbres
