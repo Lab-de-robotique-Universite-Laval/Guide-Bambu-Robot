@@ -65,10 +65,10 @@ En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité
 
 ### Remplacer un filament dans l'AMS 2 Pro
 > [!IMPORTANT]
-> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS 2 Pro.
+> <p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS 2 Pro.<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
 
 1) Pour ouvrir l'AMS, il est **_important de le débarrer en rabattant les bras de blocage vers l'intérieur_**. Par la suite, le couvercle peut être ouvert.
-2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour libérer le filament de la serre de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
+2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour libérer le filament de la serre de l'AMS. La plaque d'appui est en gris pâle et doit être poussée vers l'intérieur de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
 3) Pour installer une nouvelle bobine, commencez par placer la bobine dans l'espace voulu. Par la suite, poussez sur la plaque d'appui à la bouche d'entrée de filament pour ouvrir la serre de l'AMS. En gardant la plaque d'appui enfoncée, insérer l'embout du filament dans la bouche d'entrée de filament. Une fois le filament suffisamment enfoncé, l'AMS va automatiquement commencer à avaler le filament.
 4) Pour refermer l'AMS, fermez le couvercle et barrez ce dernier en redressant les bras de blocage.
 
@@ -86,7 +86,7 @@ Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet la gestion de l'humid
 
 ### Remplacer un filament dans l'AMS HT
 > [!IMPORTANT]
-> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS HT.
+> <p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS HT.<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
 
 1) Pour ouvrir l'AMS, simplement tirer vers le haut la petite poignée pour décrocher l'avant du couvercle. Le couvercle peut ensuite être ouvert.
 2) Pour retirer la bobine, pousser sur le bouton se situant à l'intérieur de l'enclos pour libérer la serre de l'AMS. Se référer à la photo ci-dessous pour situer le bouton. À noter que le bouton demande beaucoup de pression pour libérer son emprise sur le filament. Par la suite, tout en gardant le bouton enfoncé, retirer le filament de la bouche d'entrée de filament. Finalement, retirer la bobine de l'AMS.
@@ -157,7 +157,7 @@ Vous pouvez placer les filaments dans les emplacements qui vous semblent bons. C
 > Une fois les filaments repositionnés ou changés dans les AMS, il est important de resynchroniser les informations de l'imprimante avec le logiciel.
 
 ## Préparer le plateau d'impression
-Avant de commencer, prenons le temps de se familiariser avec l'environnement de préparation du plateau. Nous avons trois sections sur la gauche, soit.
+Avant de commencer, prenons le temps de se familiariser avec l'environnement de préparation du plateau. Celui-ci se trouve à l'onglet **_Prepare_**. Nous avons trois sections sur la gauche, soit.
 
 1) Printer
 2) Project Filaments
@@ -210,11 +210,14 @@ Il est aussi possible de sélectionner le plateau dans la liste pour accéder à
     <img src="img/process_objects_plate.png" alt="process_objects_plate" style="width:400px;"/>
 </p>
 
-Une fois les pièces agencées et les paramètres d'impression choisis, cliquez sur **_Slice part_**. Le logiciel va ensuite convertir votre plateau en fichier d'impression. Il est ensuite possible d'inspecter le rendu réel de la tâche d'impression. La glissière le long du côté droit permet d'inspecter chaque couche d'impression.
+Une fois les pièces agencées et les paramètres d'impression choisis, cliquez sur **_Slice part_**. Le logiciel va ensuite convertir votre plateau en fichier d'impression et vous emmener à l'onglet **_Preview_**. Il est ensuite possible d'inspecter le rendu réel de la tâche d'impression. La glissière le long du côté droit permet d'inspecter chaque couche d'impression.
 
 <p align="middle">
     <img src="img/slicing.gif" alt="slicing" style="width:1280px;"/>
 </p>
+
+> [!NOTE]
+> À chaque fois qu'un paramètre d'impression est modifié, le plateau doit être retranché (sliced) avant de permettre l'impression.
 
 ## Utiliser le matériau de support
 Contrairement à d'autres imprimantes, le matériel de support ne sert pas à construire l'entièreté de la structure de support. En effet, il est plus efficace de construire la majorité de la structure de support dans le même matériel que la pièce supportée. Le matériel de support est utilisé uniquement pour faire l'interface entre le support et la pièce supportée. Cette couche d'interface permet d'aisément séparer le support de la pièce tout en améliorant la finit de surface de la pièce à l'interface.
@@ -250,6 +253,9 @@ Pour retirer les pièces du plateau, ce dernier peut être légèrement plié. D
 <p align="middle">
     <img src="img/bend_plate.png" alt="bend_plate" style="width:600px;"/>
 </p>
+
+> [!CAUTION]
+> Si des supports doivent être retirés des pièces, vous devez mettre des lunettes de sécurité pour vous protéger des éclats.
 
 ### Réinstaller le plateau d'impression dans l'imprimante
 Pour faciliter l'utilisation de l'imprimante pour tous, veuillez réinstaller le plateau d'impression dans l'imprimante une fois les pièces récupérées. Veuillez vous assurer qu'aucun plastique n'est encore collé sur le plateau.
