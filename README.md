@@ -64,8 +64,13 @@ En plus de pouvoir maintenir la qualité du plastique en contrôlant l'humidité
 > L'AMS 2 Pro permet à la buse droite d'imprimer un maximum de 4 filaments différents de manière automatique. Plus que cette quantité et le filament devra être changé manuellement durant l'impression. Il est aussi important de noter que chaque changement de filament demande une purge de la buse et donc des déchets supplémentaires.
 
 ### Remplacer un filament dans l'AMS 2 Pro
+
+<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
+
 > [!IMPORTANT]
-> <p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS 2 Pro.<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
+>  Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS 2 Pro.
+
+<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
 
 1) Pour ouvrir l'AMS, il est **_important de le débarrer en rabattant les bras de blocage vers l'intérieur_**. Par la suite, le couvercle peut être ouvert.
 2) Pour retirer une bobine, poussez sur la plaque d'appui à la bouche d'entrée de filament pour libérer le filament de la serre de l'AMS. La plaque d'appui est en gris pâle et doit être poussée vers l'intérieur de l'AMS. En gardant la plaque d'appui enfoncée, tirez sur le filament pour le retirer de la bouche d'entrée. Finalement, retirez la bobine de l'AMS.
@@ -85,8 +90,13 @@ Tout comme l'AMS 2 Pro, l'AMS HT (High Temperature) permet la gestion de l'humid
 > L'AMS HT est connecté à la **_buse de gauche_** de l'imprimante.
 
 ### Remplacer un filament dans l'AMS HT
+
+<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
+
 > [!IMPORTANT]
-> <p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS HT.<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
+> Lire les **_4 étapes suivantes au complet_** et ensuite regardez la vidéo suivante pour vous assurer d'avoir compris la séquence à accomplir avant d'intéragir avec l'AMS HT.
+
+<p align="middle"><img src="img/caution_tape.jpg" alt="caution_tape" style="width:600px;"/></p>
 
 1) Pour ouvrir l'AMS, simplement tirer vers le haut la petite poignée pour décrocher l'avant du couvercle. Le couvercle peut ensuite être ouvert.
 2) Pour retirer la bobine, pousser sur le bouton se situant à l'intérieur de l'enclos pour libérer la serre de l'AMS. Se référer à la photo ci-dessous pour situer le bouton. À noter que le bouton demande beaucoup de pression pour libérer son emprise sur le filament. Par la suite, tout en gardant le bouton enfoncé, retirer le filament de la bouche d'entrée de filament. Finalement, retirer la bobine de l'AMS.
